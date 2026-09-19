@@ -3,7 +3,9 @@
 
 ## HOW TO RUN??
 Download the folder and in your terminal run: cd "./Downloads/BlackJack" (if not just replace the text in "" with the file path :P)
+
 then run: dotnet run Program.cs
+
 and BOOM! black jack :3
 
 Video example:
