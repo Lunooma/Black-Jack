@@ -7,4 +7,5 @@ then run: dotnet run Program.cs
 and BOOM! black jack :3
 
 Video example:
+
 [Running video example](https://github.com/user-attachments/assets/7918fd01-a3a9-442b-ab1e-7d537cafca89)
