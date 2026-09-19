@@ -1,0 +1,14 @@
+/home/luna/Documents/C#/BlackJack/obj/Debug/net10.0/_BlackJack.GeneratedMSBuildEditorConfig.editorconfig
+/home/luna/Documents/C#/BlackJack/obj/Debug/net10.0/_BlackJack.AssemblyInfoInputs.cache
+/home/luna/Documents/C#/BlackJack/obj/Debug/net10.0/_BlackJack.AssemblyInfo.cs
+/home/luna/Documents/C#/BlackJack/obj/Debug/net10.0/_BlackJack.csproj.CoreCompileInputs.cache
+/home/luna/Documents/C#/BlackJack/bin/Debug/net10.0/_BlackJack
+/home/luna/Documents/C#/BlackJack/bin/Debug/net10.0/_BlackJack.deps.json
+/home/luna/Documents/C#/BlackJack/bin/Debug/net10.0/_BlackJack.runtimeconfig.json
+/home/luna/Documents/C#/BlackJack/bin/Debug/net10.0/_BlackJack.dll
+/home/luna/Documents/C#/BlackJack/bin/Debug/net10.0/_BlackJack.pdb
+/home/luna/Documents/C#/BlackJack/obj/Debug/net10.0/_BlackJack.dll
+/home/luna/Documents/C#/BlackJack/obj/Debug/net10.0/refint/_BlackJack.dll
+/home/luna/Documents/C#/BlackJack/obj/Debug/net10.0/_BlackJack.pdb
+/home/luna/Documents/C#/BlackJack/obj/Debug/net10.0/_BlackJack.genruntimeconfig.cache
+/home/luna/Documents/C#/BlackJack/obj/Debug/net10.0/ref/_BlackJack.dll

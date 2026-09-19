@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nDzLoWiz8bM=",
+  "success": true,
+  "projectFilePath": "/home/luna/Documents/C#/BlackJack/_BlackJack.csproj",
+  "expectedPackageFiles": [
+    "/home/luna/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.12/microsoft.aspnetcore.app.ref.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
