@@ -4,9 +4,9 @@
 ## HOW TO RUN??
 (NOTE: You do need the latest version of .NET installed to be able to compile and run the program!)
 
-Download the folder and in your terminal run: cd "./Downloads/BlackJack" (if not just replace the text in "" with the file path :P)
+Download the folder and in your terminal run: ```cd "./Downloads/BlackJack"``` (if not just replace the text in "" with the file path :P)
 
-then run: dotnet run Program.cs
+then run: ```dotnet run Program.cs```
 
 and BOOM! black jack :3
 
