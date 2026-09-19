@@ -1,5 +1,5 @@
 # Black-Jack! :3
-[Example Video!](https://github.com/user-attachments/assets/25439ff8-c259-4bf6-8e3b-84a56de05a96)
+[Example Video!](https://github.com/user-attachments/assets/1b098e95-6044-4984-aa36-6c0757d10d9c)
 
 ## HOW TO RUN??
 (NOTE: You do need the latest version of .NET installed to be able to compile and run the program!)
@@ -16,9 +16,11 @@ then run:
 
 and BOOM! black jack :3
 
+
 Video example:
 
-[How to run video](https://github.com/user-attachments/assets/e07443e5-b9de-4bb5-b399-0622d400f780)
+[How to run video](https://github.com/user-attachments/assets/ad9f0a41-6ae9-406a-b84a-56ad66da9ed1)
+
 
 ## Futures updates?
 UH maybe! I might add ```currency``` and ```bets``` but am unsure! Since this is just a fun silly game in the console I'm unsure if I should further develop it! 
