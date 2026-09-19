@@ -2,7 +2,7 @@
 [Example Video!](https://github.com/user-attachments/assets/1b098e95-6044-4984-aa36-6c0757d10d9c)
 
 ## HOW TO RUN??
-(NOTE: You do need the latest version of .NET installed to be able to compile and run the program!)
+(NOTE: Requires the .NET 10 SDK to be able to compile and run the program!)
 
 Download the folder and in your terminal run:
 
