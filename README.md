@@ -2,7 +2,7 @@
 [Example Video!](https://github.com/user-attachments/assets/72e01c61-fb07-4691-a9d9-5cf8bc90cda3)
 
 ## HOW TO RUN??
-Download the folder and in your terminal run: cd "FILEPATH_TO_BLACKJACK"
+Download the folder and in your terminal run: cd "./Downloads/BlackJack" (if not just replace the text in "" with the file path :P)
 then run: dotnet run Program.cs
 and BOOM! black jack :3
 
