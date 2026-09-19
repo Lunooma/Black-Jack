@@ -6,7 +6,7 @@
 
 Download the folder and in your terminal run:
 
-```cd "./Downloads/BlackJack"```
+```cd "./Downloads/Black-Jack-Game/BlackJack"```
 
 (You might have to replace the text inside of quotes with the file path :P)
 
