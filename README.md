@@ -4,12 +4,21 @@
 ## HOW TO RUN??
 (NOTE: You do need the latest version of .NET installed to be able to compile and run the program!)
 
-Download the folder and in your terminal run: ```cd "./Downloads/BlackJack"``` (if not just replace the text in "" with the file path :P)
+Download the folder and in your terminal run:
 
-then run: ```dotnet run Program.cs```
+```cd "./Downloads/BlackJack"```
+
+(You might have to replace the text inside of quotes with the file path :P)
+
+then run:
+
+```dotnet run Program.cs```
 
 and BOOM! black jack :3
 
 Video example:
 
 [How to run video](https://github.com/user-attachments/assets/e07443e5-b9de-4bb5-b399-0622d400f780)
+
+## Futures updates?
+UH maybe! I might add ```currency``` and ```bets``` but am unsure! Since this is just a fun silly game in the console I'm unsure if I should further develop it! 
