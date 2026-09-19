@@ -1,4 +1,3 @@
-
 # Black-Jack! :3
 [Example Video!](https://github.com/user-attachments/assets/72e01c61-fb07-4691-a9d9-5cf8bc90cda3)
 
@@ -9,4 +8,4 @@ and BOOM! black jack :3
 
 Video example:
 
-[How to run video](https://github.com/user-attachments/assets/d0196716-87ae-4b11-a01c-5b17cf9e4a61)
+[How to run video](https://github.com/user-attachments/assets/e07443e5-b9de-4bb5-b399-0622d400f780)
