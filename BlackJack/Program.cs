@@ -40,11 +40,11 @@ class Program
             ShowTable(house, player, hideHoleCard: false);
 
             if (Rules.IsBlackjack(player) && Rules.IsBlackjack(house))
-                PrintResult("You both have blackjack, it's a push.", ConsoleColor.Yellow);
+                ColoredMessage("You both have blackjack, it's a push.", ConsoleColor.Yellow);
             else if (Rules.IsBlackjack(player))
-                PrintResult("You won by BLACK JACK! :D", ConsoleColor.Green);
+                ColoredMessage("You won by BLACK JACK! :D", ConsoleColor.Green);
             else
-                PrintResult("House has blackjack. You lose. :(", ConsoleColor.Red);
+                ColoredMessage("House has blackjack. You lose. :(", ConsoleColor.Red);
 
             return;
         }
@@ -56,7 +56,7 @@ class Program
 
             if (Rules.IsBust(player))
             {
-                PrintResult("You busted! :(", ConsoleColor.Red);
+                ColoredMessage("You busted! :(", ConsoleColor.Red);
                 return;
             }
 
@@ -84,13 +84,13 @@ class Program
         int playerValue = Rules.HandValue(player);
 
         if (Rules.IsBust(house))
-            PrintResult("You won! House Busted!", ConsoleColor.Green);
+            ColoredMessage("You won! House Busted!", ConsoleColor.Green);
         else if (houseValue < playerValue)
-            PrintResult("You won!", ConsoleColor.Green);
+            ColoredMessage("You won!", ConsoleColor.Green);
         else if (houseValue > playerValue)
-            PrintResult("You lost!", ConsoleColor.Red);
+            ColoredMessage("You lost!", ConsoleColor.Red);
         else
-            PrintResult("You tied, it's a push!", ConsoleColor.Yellow);
+            ColoredMessage("You tied, it's a push!", ConsoleColor.Yellow);
 
     }
 
@@ -101,25 +101,30 @@ class Program
         if (hideHoleCard)
         {
             // Only the first house card is visible until the dealer's turn.
-            PrintResult($"House's hand:\n{house[0]}; [hidden]\n{Rules.HandValue([house[0]])}\n", ConsoleColor.Magenta);
+            ColoredMessage($"House's hand:\n{house[0]}; [hidden]\n{Rules.HandValue([house[0]])}\n", ConsoleColor.Magenta);
         }
         else
         {
-            PrintResult($"House's hand:\n{string.Join("; ", house)}\n{Rules.HandValue(house)}\n", ConsoleColor.Magenta);
+            ColoredMessage($"House's hand:\n{string.Join("; ", house)}\n{Rules.HandValue(house)}\n", ConsoleColor.Magenta);
         }
 
-        PrintResult($"Your hand:\n{string.Join("; ", player)}\n{Rules.HandValue(player)}\n", ConsoleColor.Cyan);
+        ColoredMessage($"Your hand:\n{string.Join("; ", player)}\n{Rules.HandValue(player)}\n", ConsoleColor.Cyan);
     }
 
     // Only an explicit "y" counts as yes. Empty or anything else counts as no.
     static bool AskYesNo(string prompt)
     {
-        PrintResult(prompt, ConsoleColor.DarkBlue);
+        ColoredMessage(prompt, ConsoleColor.White);
         string? answer = Console.ReadLine();
         return answer?.Trim().ToLower() == "y";
     }
 
-    static void PrintResult(string message, ConsoleColor color)
+    /// <summary>
+    /// Prints a message with a certain color
+    /// </summary>
+    /// <param name="message">The message to print</param>
+    /// <param name="color">The color of the message</param>
+    static void ColoredMessage(string message, ConsoleColor color)
     {
         Console.ForegroundColor = color;
         Console.WriteLine(message);
