@@ -35,7 +35,7 @@ class Program
         // Blackjack check right after the deal.
         if (Rules.IsBlackjack(player) || Rules.IsBlackjack(house))
         {
-            ShowTable(house, player, hideHoleCard: false);
+            ShowTable(house, player, hideHoldCard: false);
 
             if (Rules.IsBlackjack(player) && Rules.IsBlackjack(house))
                 ColoredMessage("You both have blackjack, it's a push.", ConsoleColor.Yellow);
@@ -50,7 +50,7 @@ class Program
         // Player's turn
         while (true)
         {
-            ShowTable(house, player, hideHoleCard: true);
+            ShowTable(house, player, hideHoldCard: true);
 
             if (Rules.IsBust(player))
             {
@@ -69,7 +69,7 @@ class Program
 
     static void DealerTurn(Deck deck, List<Card> house, List<Card> player)
     {
-        ShowTable(house, player, hideHoleCard: false);
+        ShowTable(house, player, hideHoldCard: false);
 
         while (Rules.HandValue(house) < 17)
         {
@@ -92,11 +92,11 @@ class Program
 
     }
 
-    static void ShowTable(List<Card> house, List<Card> player, bool hideHoleCard)
+    static void ShowTable(List<Card> house, List<Card> player, bool hideHoldCard)
     {
         Console.Clear();
 
-        if (hideHoleCard)
+        if (hideHoldCard)
         {
             // Only the first house card is visible until the dealer's turn.
             ColoredMessage($"House's hand:\n{house[0]}; [hidden]\n{Rules.HandValue([house[0]])}\n", ConsoleColor.Magenta);
