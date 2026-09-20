@@ -18,9 +18,7 @@ and BOOM! black jack :3
 
 
 Video Example:
+(The video below is Outdated so when you run the program it will start up differently!)
 
 [How to run video](https://github.com/user-attachments/assets/ad9f0a41-6ae9-406a-b84a-56ad66da9ed1)
 
-
-## Future Updates?
-UHH maybe! I might add ```currency``` and ```bets``` but am unsure! Since this is just a fun silly game in the console I'm unsure if I should further develop it! 
